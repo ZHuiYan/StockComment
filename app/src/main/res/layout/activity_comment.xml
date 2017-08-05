@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_comment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.stockecomment.com.stockcomment.CommentActivity">
+
+    <TextView
+        android:id="@+id/text_description"
+        android:hint="say hello"
+        android:textSize="16dp"
+        android:gravity="top"
+        android:padding="10dp"
+        android:lineSpacingExtra="2dp"
+        android:textColorHighlight="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_below="@id/text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@null"
+        android:padding="10dp"
+        android:lineSpacingExtra="2dp"
+        android:paddingBottom="10dp"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/img"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_text"
+            android:background="@null"
+            android:text="图片" />
+        <Button
+            android:id="@+id/bt"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_text"
+            android:background="@null"
+            android:text="\@" />
+
+        <Button
+            android:id="@+id/bt_send"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="发送" />
+    </LinearLayout>
+</RelativeLayout>

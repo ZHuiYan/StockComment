@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 选项点击效果 -->
+    <color name="item_pressed">#e7e7e7</color>
+    <color name="black">#e7e7e7</color>
+    <!--分割线-->
+    <color name="divider">#DBDBDE</color>
+    <color name="tx_gray">#999999</color>
+    <color name="tx_black">#333333</color>
+    <!--灰阶蒙板-->
+    <color name="panelGray">#cc6d6d6d</color>
+    <color name="white">#ffffffff</color>
+</resources>
