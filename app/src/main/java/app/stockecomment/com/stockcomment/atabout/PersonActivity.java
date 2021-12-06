@@ -13,7 +13,7 @@ import java.util.List;
 import app.stockecomment.com.stockcomment.R;
 
 /**
- * Created by Wode9 on 2016/10/13.
+ * Created  on 2016/10/13.
  */
 
 public class PersonActivity extends Activity {
